@@ -1,0 +1,6 @@
+framework module Pods_Swift_VIPER_Crypto {
+  umbrella header "Pods-Swift-VIPER-Crypto-umbrella.h"
+
+  export *
+  module * { export * }
+}

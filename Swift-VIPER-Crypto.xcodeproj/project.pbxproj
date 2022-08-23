@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		3FE50F4028B57FDA000D6651 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE50F3F28B57FDA000D6651 /* AppDelegate.swift */; };
 		3FE50F4228B57FDA000D6651 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE50F4128B57FDA000D6651 /* SceneDelegate.swift */; };
-		3FE50F4428B57FDA000D6651 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE50F4328B57FDA000D6651 /* ViewController.swift */; };
-		3FE50F4728B57FDA000D6651 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FE50F4528B57FDA000D6651 /* Main.storyboard */; };
 		3FE50F4928B57FDB000D6651 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FE50F4828B57FDB000D6651 /* Assets.xcassets */; };
 		3FE50F4C28B57FDB000D6651 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FE50F4A28B57FDB000D6651 /* LaunchScreen.storyboard */; };
+		3FE50F5428B58006000D6651 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE50F5328B58006000D6651 /* View.swift */; };
+		3FE50F5628B58013000D6651 /* Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE50F5528B58013000D6651 /* Interactor.swift */; };
+		3FE50F5828B5801A000D6651 /* Presenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE50F5728B5801A000D6651 /* Presenter.swift */; };
+		3FE50F5A28B58020000D6651 /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE50F5928B58020000D6651 /* Entity.swift */; };
+		3FE50F5C28B58027000D6651 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE50F5B28B58027000D6651 /* Router.swift */; };
+		A5271A2047B280B3A1005AC6 /* Pods_Swift_VIPER_Crypto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08171C56A84B7318E798458E /* Pods_Swift_VIPER_Crypto.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		08171C56A84B7318E798458E /* Pods_Swift_VIPER_Crypto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swift_VIPER_Crypto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		17AB042FB8DFE17F5215BF61 /* Pods-Swift-VIPER-Crypto.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift-VIPER-Crypto.debug.xcconfig"; path = "Target Support Files/Pods-Swift-VIPER-Crypto/Pods-Swift-VIPER-Crypto.debug.xcconfig"; sourceTree = "<group>"; };
 		3FE50F3C28B57FDA000D6651 /* Swift-VIPER-Crypto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift-VIPER-Crypto.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FE50F3F28B57FDA000D6651 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FE50F4128B57FDA000D6651 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3FE50F4328B57FDA000D6651 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3FE50F4628B57FDA000D6651 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3FE50F4828B57FDB000D6651 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3FE50F4B28B57FDB000D6651 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3FE50F4D28B57FDB000D6651 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FE50F5328B58006000D6651 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		3FE50F5528B58013000D6651 /* Interactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interactor.swift; sourceTree = "<group>"; };
+		3FE50F5728B5801A000D6651 /* Presenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presenter.swift; sourceTree = "<group>"; };
+		3FE50F5928B58020000D6651 /* Entity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
+		3FE50F5B28B58027000D6651 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		58F8A665642A1E7BC7B00E03 /* Pods-Swift-VIPER-Crypto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift-VIPER-Crypto.release.xcconfig"; path = "Target Support Files/Pods-Swift-VIPER-Crypto/Pods-Swift-VIPER-Crypto.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5271A2047B280B3A1005AC6 /* Pods_Swift_VIPER_Crypto.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +53,8 @@
 			children = (
 				3FE50F3E28B57FDA000D6651 /* Swift-VIPER-Crypto */,
 				3FE50F3D28B57FDA000D6651 /* Products */,
+				8FB26EE09B4A1FA08D1DEC9D /* Pods */,
+				7D8C0ADF8B47F05116BBBCAC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +69,52 @@
 		3FE50F3E28B57FDA000D6651 /* Swift-VIPER-Crypto */ = {
 			isa = PBXGroup;
 			children = (
-				3FE50F3F28B57FDA000D6651 /* AppDelegate.swift */,
-				3FE50F4128B57FDA000D6651 /* SceneDelegate.swift */,
-				3FE50F4328B57FDA000D6651 /* ViewController.swift */,
-				3FE50F4528B57FDA000D6651 /* Main.storyboard */,
-				3FE50F4828B57FDB000D6651 /* Assets.xcassets */,
-				3FE50F4A28B57FDB000D6651 /* LaunchScreen.storyboard */,
 				3FE50F4D28B57FDB000D6651 /* Info.plist */,
+				3FE50F4A28B57FDB000D6651 /* LaunchScreen.storyboard */,
+				3FE50F4828B57FDB000D6651 /* Assets.xcassets */,
+				3FE50F5E28B593AB000D6651 /* App */,
+				3FE50F5D28B59388000D6651 /* home-module */,
 			);
 			path = "Swift-VIPER-Crypto";
+			sourceTree = "<group>";
+		};
+		3FE50F5D28B59388000D6651 /* home-module */ = {
+			isa = PBXGroup;
+			children = (
+				3FE50F5328B58006000D6651 /* View.swift */,
+				3FE50F5728B5801A000D6651 /* Presenter.swift */,
+				3FE50F5528B58013000D6651 /* Interactor.swift */,
+				3FE50F5928B58020000D6651 /* Entity.swift */,
+				3FE50F5B28B58027000D6651 /* Router.swift */,
+			);
+			path = "home-module";
+			sourceTree = "<group>";
+		};
+		3FE50F5E28B593AB000D6651 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				3FE50F3F28B57FDA000D6651 /* AppDelegate.swift */,
+				3FE50F4128B57FDA000D6651 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		7D8C0ADF8B47F05116BBBCAC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				08171C56A84B7318E798458E /* Pods_Swift_VIPER_Crypto.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8FB26EE09B4A1FA08D1DEC9D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				17AB042FB8DFE17F5215BF61 /* Pods-Swift-VIPER-Crypto.debug.xcconfig */,
+				58F8A665642A1E7BC7B00E03 /* Pods-Swift-VIPER-Crypto.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +124,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3FE50F5028B57FDB000D6651 /* Build configuration list for PBXNativeTarget "Swift-VIPER-Crypto" */;
 			buildPhases = (
+				70D1B7D290439A2DC5B183E5 /* [CP] Check Pods Manifest.lock */,
 				3FE50F3828B57FDA000D6651 /* Sources */,
 				3FE50F3928B57FDA000D6651 /* Frameworks */,
 				3FE50F3A28B57FDA000D6651 /* Resources */,
+				2AAEDF9837F8C4848A6DFBC1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,18 +179,63 @@
 			files = (
 				3FE50F4C28B57FDB000D6651 /* LaunchScreen.storyboard in Resources */,
 				3FE50F4928B57FDB000D6651 /* Assets.xcassets in Resources */,
-				3FE50F4728B57FDA000D6651 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2AAEDF9837F8C4848A6DFBC1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Swift-VIPER-Crypto/Pods-Swift-VIPER-Crypto-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Swift-VIPER-Crypto/Pods-Swift-VIPER-Crypto-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Swift-VIPER-Crypto/Pods-Swift-VIPER-Crypto-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70D1B7D290439A2DC5B183E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Swift-VIPER-Crypto-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3FE50F3828B57FDA000D6651 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FE50F4428B57FDA000D6651 /* ViewController.swift in Sources */,
+				3FE50F5C28B58027000D6651 /* Router.swift in Sources */,
+				3FE50F5828B5801A000D6651 /* Presenter.swift in Sources */,
+				3FE50F5428B58006000D6651 /* View.swift in Sources */,
+				3FE50F5A28B58020000D6651 /* Entity.swift in Sources */,
+				3FE50F5628B58013000D6651 /* Interactor.swift in Sources */,
 				3FE50F4028B57FDA000D6651 /* AppDelegate.swift in Sources */,
 				3FE50F4228B57FDA000D6651 /* SceneDelegate.swift in Sources */,
 			);
@@ -147,14 +244,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		3FE50F4528B57FDA000D6651 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3FE50F4628B57FDA000D6651 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3FE50F4A28B57FDB000D6651 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +371,7 @@
 		};
 		3FE50F5128B57FDB000D6651 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17AB042FB8DFE17F5215BF61 /* Pods-Swift-VIPER-Crypto.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -292,7 +382,6 @@
 				INFOPLIST_FILE = "Swift-VIPER-Crypto/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -310,6 +399,7 @@
 		};
 		3FE50F5228B57FDB000D6651 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58F8A665642A1E7BC7B00E03 /* Pods-Swift-VIPER-Crypto.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -320,7 +410,6 @@
 				INFOPLIST_FILE = "Swift-VIPER-Crypto/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
